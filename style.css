@@ -1,3 +1,62 @@
+.body {
 
+    background-image: radial-gradient(circle at center, rgb(138, 0, 0), rgb(196, 0, 0), red, rgb(174, 113, 0), rgb(203, 132, 0), orange, rgb(188, 188, 0), yellow);
+}
 
+.shark-2_list:hover .overlay {
+    opacity: 1;
+  }
+  .pages_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+}
 
+.pages-link {
+  font-family: 'Kaushan Script';
+  text-decoration: none ;
+  text-shadow: 3px 1px 3px black;
+  font-size: 36px;
+}
+.Eda {
+    text-align: center;
+    color: black;
+    border: 5px solid blue;
+    width: 350px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.Eda2 {
+    height: 675px;
+    width: 900px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.eda-photo {
+    height: 337px;
+    width: 450px;
+}
+.main-article {
+    border: 5px solid greenyellow; 
+    width: 455px;
+    height: 595px;
+}
+.bambyk {
+    display: flex;
+    justify-content: space-around;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 35, 255, 0.468);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+.main-article:hover .overlay {
+    opacity: 1;
+  }
