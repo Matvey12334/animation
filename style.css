@@ -1,6 +1,6 @@
 body {
-
-    background-image: radial-gradient(circle at center, rgb(138, 0, 0), rgb(196, 0, 0), red, rgb(174, 113, 0), rgb(203, 132, 0), orange, rgb(188, 188, 0), yellow);
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .shark-2_list:hover .overlay {
@@ -21,7 +21,7 @@ body {
 .Eda {
     text-align: center;
     color: black;
-    border: 5px solid blue;
+    border: 5px solid rgb(84, 75, 255);
     width: 350px;
     margin-left: 450px;
     margin-right: 450px;
@@ -83,7 +83,7 @@ body {
   .Eda-title {
     text-align: center;
     color: black;
-    border: 5px solid yellow;
+    border: 5px solid rgb(255, 251, 126);
     width: 350px;
     margin-left: 450px;
     margin-right: 450px;
