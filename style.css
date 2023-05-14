@@ -88,3 +88,16 @@ body {
     margin-left: 450px;
     margin-right: 450px;
   }
+   
+  .Eda3 {
+    height: 450px;
+    width: 900px;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .main-text {
+    font-size: 40px;
+    color: rgb(84, 75, 255);
+    text-indent: 25px;
+  }
